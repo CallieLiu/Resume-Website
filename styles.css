@@ -1,0 +1,64 @@
+/* Styles all*/
+* {
+    font-family: "Monaco", monospace;
+}
+
+/* Styles the navigation bar */
+header {
+    display: block;
+    /*width: 80%;*/
+    padding: 10px 10px;
+    background-color: #4f4e4e;
+    border: 5px solid #333;
+    /*margin: 10px auto;*/
+  }
+  
+  nav ul {
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+/* Styles for all headers */
+.headers {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Verdana";
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+/* Styles for all subheaders */
+.subheaders {
+    margin-left: 50px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+/* Styles for all body */
+.body {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+/*Styles for profile paragraph*/
+.profile {
+    line-height: 1.75;
+    padding-top: 50px;
+    margin-right: 50px;
+}
+
